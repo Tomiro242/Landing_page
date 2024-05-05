@@ -1,0 +1,104 @@
+*{box-sizing: border-box;}
+
+html{height: 100%;}
+
+body{min-height: 100%;
+     display: flex;
+    flex-direction: column;
+    margin:0%;}
+
+.first{color: white;
+       background-color: rgb(16, 16, 61);
+        padding-bottom: 40px;}
+
+header{display: flex;
+       flex-direction: row;
+       justify-content: space-between;}
+
+ul{display: flex;
+   gap: 8px;}
+
+li{list-style-type: none;}
+
+.logo{ font-weight: bold;}
+
+a{text-decoration: none;
+  color: white;}
+
+ .bear{ display: flex;
+        margin-top: 30px;
+        margin-left: 500px;
+        gap: 10px;}
+
+button{background-color: blue;
+       color: white;
+       border-radius: 30px;}
+
+.one{font-size: 48px;
+     font-weight: bolder;
+     width:350px;
+     margin-top: -10px;}
+
+.two{font-size: 18px;
+     margin-top: -20px;}
+
+/*first section*/
+
+.info{text-align: center;}
+
+.gun{display: flex;
+     justify-content:center;
+     gap: 10px;}
+
+.icon{border: 8px solid blue;
+      border-radius: 30px;}
+
+/*second section*/
+
+.third{ background-color: rgb(172, 169, 169);
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-style: italic;
+        }
+
+.cone{  width: 250px;}
+
+.par{margin-left: 45px;
+      font-weight: bold;}
+
+.fix{ padding-top: 100px;
+     padding-bottom: 100px;
+     display: flex;
+     justify-content: center;}
+
+.fourth{ display: flex;
+         justify-content: center;
+         background-color: rgb(0, 68, 255) ;
+         width: 800px;
+         height: 120px;
+         border-radius: 30px;}
+
+.box{display: flex;
+     flex-direction: column;
+     background-color: rgb(0, 68, 255);
+     color: white;
+     width:700px;
+     }
+
+.bright{font-weight: bold;}
+
+.foot{ background-color: rgb(16, 16, 61);
+       text-align: center;
+       margin-bottom: auto;
+       color: white;
+       padding-top: 10px;
+       padding-bottom: 10px;}
+
+.but{ height: 60px;
+      align-self: center;
+      border: 1px solid white;}
+
+.dark{ margin-top: -10px;}
